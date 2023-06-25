@@ -1,0 +1,42 @@
+html,
+body {
+  @apply bg-secondary-2 p-0 m-0;
+}
+
+body {
+  @apply antialiased relative;
+}
+
+*,
+*:after,
+*:before {
+  @apply box-border m-0 p-0;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #170a31 white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  @apply w-0;
+
+  @screen md {
+    @apply w-2;
+  }
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply border-white border-solid border-r-[20px] bg-primary border-[3px];
+}
+
+a {
+  text-decoration: none;
+  @apply text-inherit;
+}

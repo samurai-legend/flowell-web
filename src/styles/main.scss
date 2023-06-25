@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1440px];
+  }
+}
+
+@import "resets";
+@import "fonts/all";
+@import "elements/all";
+@import "components/all";
