@@ -1,3 +1,7 @@
-header{
-    
+header {
+    @apply fixed top-0 w-full z-50;
+}
+
+.logo {
+  @apply w-44 h-10 relative;
 }

@@ -1,0 +1,27 @@
+.navbar {
+  &--wrapper {
+    @apply flex flex-row justify-between items-center;
+    @apply py-5 px-10;
+  }
+}
+
+.nav-menu {
+  &--container {
+    @apply flex flex-row space-x-4;
+  }
+}
+
+.nav-item {
+  &--wrapper {
+    @apply relative;
+  }
+
+  &--link {
+    @apply block px-4 py-2 text-body font-light hover:text-primary transition duration-100;
+  }
+  &--child-container {
+    @apply absolute left-0 w-48 mt-2 origin-top-right bg-light-gray;
+    // @apply divide-y divide-secondary-1;
+    @apply rounded-md shadow-lg focus:outline-none;
+  }
+}

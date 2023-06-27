@@ -1,3 +1,26 @@
-footer {
+.footer {
+  &--wrapper {
+    @apply bg-gradient-to-r from-secondary-2 to-primary-2;
+    @apply rounded-t-2xl py-10;
+  }
 
+  &--content{
+    @apply flex flex-col justify-between items-center gap-y-20;
+  }
+
+  &--container {
+    @apply flex flex-col justify-center items-center;
+    @apply gap-y-10;
+    .nav-menu--container {
+      > li a {
+        @apply text-white;
+      }
+    }
+
+    .nav-item {
+      &--link {
+        @apply hover:text-primary;
+      }
+    }
+  }
 }

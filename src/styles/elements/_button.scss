@@ -1,0 +1,14 @@
+.button {
+  @apply py-3 px-7 rounded-3xl text-body font-semibold;
+  @apply transform transition duration-150 ease-in-out;
+  @apply hover:scale-110;
+  @apply text-white;
+
+  &.primary {
+    @apply bg-gradient-to-br from-primary to-primary-2;
+  }
+
+  &.secondary {
+    @apply bg-gradient-to-br from-secondary-1 to-secondary-2;
+  }
+}

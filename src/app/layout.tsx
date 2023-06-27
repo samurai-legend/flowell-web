@@ -1,3 +1,5 @@
+import Footer from "@app/components/footer/Footer";
+import Header from "@app/components/header/Header";
 import StyledComponentsRegistry from "@app/lib/registry";
 import "@app/styles/main.scss";
 
@@ -15,7 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <Header />
+          {children}
+          <Footer />
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
