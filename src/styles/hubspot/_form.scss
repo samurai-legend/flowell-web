@@ -1,0 +1,39 @@
+.hs-form {
+  @apply flex flex-col gap-y-5 bg-white rounded-3xl p-5 shadow-lg;
+  @apply min-w-[25rem];
+  .hs-form-field {
+    &.hs-fieldtype-text {
+      label {
+        @apply hidden;
+      }
+      .hs-error-msg {
+        @apply block;
+      }
+    }
+  }
+  .input {
+    @apply bg-light-gray rounded-3xl;
+    .hs-input {
+      @apply w-full px-3 py-2 rounded-3xl text-body bg-light-gray placeholder:text-body;
+    }
+  }
+  .hs-error-msgs {
+    @apply my-2;
+    label {
+      @apply text-body text-red-300;
+    }
+  }
+
+  .hs_submit {
+    .actions {
+      input {
+        @apply cursor-pointer;
+        @apply w-full py-3 px-7 rounded-3xl text-body font-semibold;
+        @apply transform transition duration-150 ease-in-out;
+        @apply hover:scale-110;
+        @apply text-white;
+        @apply bg-gradient-to-br from-primary to-primary-2;
+      }
+    }
+  }
+}

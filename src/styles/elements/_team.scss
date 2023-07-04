@@ -1,0 +1,26 @@
+.team-card {
+  &--container {
+    @apply bg-white shadow-lg rounded-[50px] overflow-hidden;
+    .team-card-brand {
+      @apply w-full h-5 relative my-5;
+    }
+  }
+  &--thumbnail {
+    @apply relative aspect-square;
+  }
+  &--content {
+    @apply px-10;
+    .center-layout {
+      @apply gap-y-1 my-5;
+      h4 {
+        @apply text-body text-center;
+      }
+      .designation {
+        @apply text-caption text-center font-light;
+      }
+      .description {
+        @apply text-body text-center;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 .navbar {
   &--wrapper {
     @apply flex flex-row justify-between items-center;
-    @apply py-5 px-10;
+    @apply py-5;
   }
 }
 
@@ -13,7 +13,7 @@
 
 .nav-item {
   &--wrapper {
-    @apply relative;
+    @apply relative z-50;
   }
 
   &--link {

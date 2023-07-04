@@ -6,19 +6,16 @@ const Footer: React.FC = () => {
   const menuItems = [
     { label: "Home", link: "/" },
     { label: "About", link: "/about" },
-    { label: "About", link: "/about" },
-    { label: "About", link: "/about" },
-    { label: "About", link: "/about" },
-    { label: "About", link: "/about" },
+    { label: "Pricing", link: "/pricing" },
   ];
   return (
     <footer className="footer--wrapper">
       <ContainerLayout className="footer--container">
         <Logo type="dark" url="/" />
         <div className="footer--content">
-          <NavMenu menuItems={menuItems} />
+          {/* <NavMenu menuItems={menuItems} /> */}
           <span className="text-caption text-white">
-            © Flowell. 2022. All Rights Reserved.
+            © Flowell. 2023. All Rights Reserved.
           </span>
         </div>
       </ContainerLayout>

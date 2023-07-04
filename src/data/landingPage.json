@@ -1,0 +1,152 @@
+{
+  "landingSection": {
+    "title": "You're a Great Coach. Now You Can Be Great at Getting Clients",
+    "description": "Download the 3 Proven Marketing Plans Used Most by Successful Health Coaches and take your marketing game up a notch.",
+    "videoUrl": "/",
+    "facts": [
+      {
+        "icon": "user-group",
+        "title": "More than",
+        "content": "50,000",
+        "caption": "clients served by our community"
+      },
+      {
+        "icon": "revenue",
+        "title": "Our systems generated",
+        "content": "$10M",
+        "caption": " in revenue...and counting"
+      },
+      {
+        "icon": "shuttle",
+        "title": "We serving coaches from",
+        "content": "10+ ",
+        "caption": "countries"
+      }
+    ]
+  },
+  "brandsSection": {
+    "title": "Trusted by coaches certified by leading institutions"
+  },
+  "whatIsFlowellSection": {
+    "title": "What is Flowell?",
+    "description": "Flowell helps health, fitness, nutrition, and wellness coaches get clients and run their business on its easy-to-use platform. We provide marketing plans and guidance so that every health coach can make an impact and find the freedom they dream of.",
+    "bannerDetails": {
+      "title": "Health Coach Business Building System",
+      "description": "Start your comprehensive, step-by-step, self-paced health coach business success plan with personalized marketing strategy to get new clients faster, without the headache.",
+      "learnMoreCta": "https://learn.flowell.co/success-system-overview",
+      "imageUrl": "/assets/what-is-flowell-banner.png",
+      "type": "right"
+    },
+    "cta": {
+      "link": "/",
+      "label": "Discover Health Coach Marketing Plans"
+    }
+  },
+  "coachingToolKitSection": {
+    "title": "Turn-key Online Coaching Toolkit",
+    "description": "Focus on coaching, not on technology. We build your web pages, streamline payments, and help you nurture and monetize your community.",
+    "learnMoreCta": "https://learn.flowell.co/the-tools-you-need-to-run-a-coaching-business",
+    "imageUrl": "/assets/coaching-tool-banner.png",
+    "type": "left"
+  },
+  "communitiySection": {
+    "title": "Professional Health and Wellness Community",
+    "description": "Never feel alone again with our community of like-minded coaches. Make friends, collaborate and build partnerships to get more clients and serve them better.",
+    "learnMoreCta": "https://learn.flowell.co/the-flowell-community-helps-you-grow-faster",
+    "imageUrl": "/assets/community-banner.png",
+    "type": "right"
+  },
+  "whatYouGetSection": {
+    "title": "What Will You Get?",
+    "description": "The best coaches in the world have the best tools and guidance, and now so do you. Join Flowell today to unlock everything you need to market yourself and get new clients, fast.",
+    "benefits": [
+      {
+        "icon": "increase",
+        "title": "Business Growth",
+        "caption": "Receive a personalized marketing plan and hundreds of resources to increase sales and boost your profits"
+      },
+      {
+        "icon": "leader",
+        "title": "Streamlined Technology",
+        "caption": "Use our tools and platform to easily collect payments, nurture leads, and engage with clients"
+      },
+      {
+        "icon": "list",
+        "title": "Coaching and Community",
+        "caption": "Get the guidance and support you need from experts who have been in your shoes"
+      }
+    ],
+    "downloadEbook": {
+      "title": "Struggling With Marketing? No Problem!",
+      "caption": "Get Your Free eBook:"
+    }
+  },
+  "teamSection": {
+    "title": "Meet Our Leadership Team",
+    "members": [
+      {
+        "name": "Taylor Stull",
+        "designation": "CEO",
+        "description": "Preventative Health Expert. Mental Health Transformation",
+        "thumbnailImage": "/assets/team/taylor.png",
+        "brands": ["/assets/brands/mount-sinai.png"]
+      },
+      {
+        "name": "Jessica Graiser",
+        "designation": "Head of Community Growth",
+        "description": "Health Coach and Clinical Nutritionist",
+        "thumbnailImage": "/assets/team/jessica.png",
+        "brands": ["/assets/brands/ace.png"]
+      },
+      {
+        "name": "Michael Sheehan",
+        "designation": "COO",
+        "description": "Functional Lifestyle and Food Science Expert",
+        "thumbnailImage": "/assets/team/michael.png",
+        "brands": ["/assets/brands/R2P.png"]
+      },
+      {
+        "name": "Annie Poliacof",
+        "designation": "Head of Coach Onboarding",
+        "description": "Health Coach and Nutritionist",
+        "thumbnailImage": "/assets/team/annie.png",
+        "brands": ["/assets/brands/tiffm.png", "/assets/brands/pn.png"]
+      },
+      {
+        "name": "Daniel Avila",
+        "designation": "CTO",
+        "description": "Expert Technologist. Weight Loss Transformation",
+        "thumbnailImage": "/assets/team/danniel.png",
+        "brands": ["/assets/brands/noke.png"]
+      },
+      {
+        "name": "Paula Fournier",
+        "designation": "Head of Coach Success",
+        "description": "Health, Life, Yoga and Weight Loss Coach",
+        "thumbnailImage": "/assets/team/paula.png",
+        "brands": ["/assets/brands/issa.png", "/assets/brands/pn.png"]
+      }
+    ]
+  },
+  "testimonialSection": {
+    "title": "Flowell Coaches Are Crushing It!",
+    "description": "Coaches who were struggling with marketing are using their personalized Flowell marketing plans to go from $0 to $5k per month in less than 6 months. Hear their stories!",
+    "videos": [
+      {
+        "name": "Marcus",
+        "quote": "First Things First - sleep focus",
+        "videoUrl": "https://www.youtube.com/watch?v=COAF3lbNrC0"
+      },
+      {
+        "name": "Marcus",
+        "quote": "First Things First - sleep focus",
+        "videoUrl": "https://www.youtube.com/watch?v=COAF3lbNrC0"
+      },
+      {
+        "name": "Marcus",
+        "quote": "First Things First - sleep focus",
+        "videoUrl": "https://www.youtube.com/watch?v=COAF3lbNrC0"
+      }
+    ]
+  }
+}

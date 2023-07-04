@@ -1,4 +1,54 @@
 .container {
+  @apply px-5 py-20;
   @apply minsm:max-w-[640px] minmd:max-w-[768px] minlg:max-w-[1024px] minxl:max-w-[1280px] min2xl:max-w-[1440px];
   @apply m-auto;
+}
+
+.two-grid-col {
+  @apply grid grid-cols-2;
+
+  @screen xl {
+    @apply grid-cols-1 gap-y-10;
+  }
+}
+
+.section {
+  @apply overflow-hidden;
+  &.landing {
+    @apply mt-16;
+  }
+  &.brands {
+    @apply bg-medium-gray;
+  }
+  &.what-is-flowell {
+    @apply bg-white;
+  }
+  &.coaching-toolkit {
+    @apply bg-light-purple;
+  }
+  &.community {
+    @apply bg-white;
+  }
+  &.what-you-get {
+    @apply bg-light-purple;
+  }
+  &.team {
+    @apply bg-white;
+  }
+  &.testimonial {
+    @apply bg-light-purple;
+  }
+}
+
+.center-layout {
+  @apply relative z-20;
+  @apply flex flex-col justify-center items-center;
+
+  &.row {
+    @apply flex-row;
+  }
+}
+
+.spacer {
+  @apply py-11;
 }

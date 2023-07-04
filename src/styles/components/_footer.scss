@@ -1,7 +1,7 @@
 .footer {
   &--wrapper {
     @apply bg-gradient-to-r from-secondary-2 to-primary-2;
-    @apply rounded-t-2xl py-10;
+    @apply rounded-t-[3rem] py-10;
   }
 
   &--content{
@@ -16,7 +16,6 @@
         @apply text-white;
       }
     }
-
     .nav-item {
       &--link {
         @apply hover:text-primary;

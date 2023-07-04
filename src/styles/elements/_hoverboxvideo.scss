@@ -1,0 +1,30 @@
+.hoverbox-video {
+  &--wrapper {
+    @apply w-full relative  overflow-hidden rounded-3xl bg-white shadow-lg;
+  }
+  &--container {
+    @apply h-[400px] relative;
+  }
+  &--video {
+    @apply absolute left-0 right-0 bottom-0 top-0 rounded-3xl;
+  }
+
+  &--content {
+    @apply flex flex-col justify-center items-start p-10 gap-y-4;
+    .hoverbox {
+      &--quote {
+        @apply text-body;
+      }
+      &--name {
+        @apply text-caption;
+      }
+    }
+    .center-layout {
+      @apply gap-x-3;
+    }
+  }
+}
+
+.dash {
+  @apply h-[1px] w-6 bg-gray relative inline-flex;
+}

@@ -1,0 +1,28 @@
+.circlemask {
+  &--container {
+    @apply relative;
+    .content {
+      @apply bg-medium-gray w-[515px] h-[515px] rounded-full relative z-0;
+
+      @screen lg {
+        @apply w-[315px] h-[315px];
+      }
+
+      .outer-ring {
+        &--container {
+          @apply absolute left-0 right-0 bottom-0 top-0 rounded-full;
+
+          .ring-item {
+            @apply absolute rounded-full border-[1px] border-medium-purple opacity-25 w-full h-full;
+          }
+          @for $i from 1 through 3 {
+            .ring-item:nth-child(3n + #{$i}) {
+              $scaled-item: $i + 0.5;
+              transform: scale($scaled-item);
+            }
+          }
+        }
+      }
+    }
+  }
+}

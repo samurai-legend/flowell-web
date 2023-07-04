@@ -1,7 +1,9 @@
 import Footer from "@app/components/footer/Footer";
 import Header from "@app/components/header/Header";
 import StyledComponentsRegistry from "@app/lib/registry";
+import Providers from "@app/providers";
 import "@app/styles/main.scss";
+import SmoothScroll from "@app/elements/SmoothScroll";
 
 export const metadata = {
   title: "Build, Grow, and Scale Your Health Coaching Career With Flowell",
@@ -17,11 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>
-          <Header />
-          {children}
-          <Footer />
-        </StyledComponentsRegistry>
+        <Providers>
+          {/* <SmoothScroll> */}
+            <StyledComponentsRegistry>
+              <Header />
+              {children}
+              <Footer />
+            </StyledComponentsRegistry>
+          {/* </SmoothScroll> */}
+        </Providers>
       </body>
     </html>
   );

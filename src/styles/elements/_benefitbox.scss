@@ -1,0 +1,23 @@
+.benefitbox {
+  &--container {
+    @apply bg-white shadow-lg py-10 px-5 flex flex-col justify-center items-center gap-y-5;
+    @apply rounded-3xl w-full;
+    .benefiticon {
+      @apply text-3xl text-secondary-1;
+    }
+  }
+
+  &--content {
+    @apply flex flex-col gap-y-1;
+
+    .benefit {
+      &-title {
+        @apply text-h4 font-semibold text-center;
+      }
+
+      &-body {
+        @apply text-body text-center;
+      }
+    }
+  }
+}

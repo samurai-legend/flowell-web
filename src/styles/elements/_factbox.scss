@@ -1,0 +1,25 @@
+.factbox {
+  &--container {
+    @apply bg-white shadow-lg py-7 px-5 flex flex-col justify-center items-start gap-y-5;
+    @apply rounded-3xl w-full mt-14;
+    .facticon {
+      @apply text-2xl text-secondary-1;
+    }
+  }
+
+  &--content {
+    @apply flex flex-col gap-y-1;
+
+    .fact {
+      &-value {
+        @apply font-semibold text-large-body;
+      }
+      &-title {
+        @apply text-caption;
+      }
+      &-caption {
+        @apply text-caption;
+      }
+    }
+  }
+}

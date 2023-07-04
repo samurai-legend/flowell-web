@@ -1,0 +1,14 @@
+.download-ebook {
+  &--conatiner {
+    @apply bg-white p-10 shadow-lg rounded-3xl;
+    .ebook-image {
+      @apply w-[400px] h-[350px] relative;
+    }
+    .ebook-caption {
+      @apply text-h4 font-semibold;
+    }
+    .ebook-title {
+      @apply text-h2 max-w-md;
+    }
+  }
+}
